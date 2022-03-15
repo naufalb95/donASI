@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "donasi",
+    "slug": "donasi",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icondonasi.png",
+    "splash": {
+      "image": "./assets/splashscreen.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#f9e6e6"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.donasi.donasi",
+      "buildNumber": "1.0.0"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#f9e6e6"
+      },
+      "package": "com.donasi.donasi",
+      "versionCode": 1
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "description": ""
+  }
+}
